@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aaron – It’s going to be.</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #111;
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+      max-width: 600px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 0.75rem 1.5rem;
+      margin: 0.5rem;
+      background: #00aaff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aaron. It’s going to be.</h1>
+  <p>This is where the real story begins. It’s not about pretending—it’s about showing up fully. Welcome to the journey.</p>
+
+  <!-- Replace the video URL below with your own YouTube video or channel embed -->
+  <iframe src="https://www.youtube.com/channel/UC6ZQOW8pVu3jMKco21ZR2Eg" allowfullscreen></iframe>
+
+  <div>
+    <a class="button" href="https://www.youtube.com/@MIDNIGHT-ROBOTERS-AI" target="_blank">Subscribe on YouTube</a>
+    <a class="button" href="mailto:aaronperkins0632@yahoo.com">Email Me</a>
+    <!-- Add more buttons/links as needed -->
+  </div>
+</body>    
+</html>

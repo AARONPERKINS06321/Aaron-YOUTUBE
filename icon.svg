@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#f5a25a"/>
+      <stop offset="0.5" stop-color="#d65a78"/>
+      <stop offset="1" stop-color="#6a3d8f"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" fill="#06070c"/>
+  <rect x="36" y="36" width="440" height="440" rx="56" fill="url(#sky)"/>
+  <circle cx="256" cy="170" r="64" fill="#fff0b4" opacity="0.85"/>
+  <!-- fireball -->
+  <circle cx="256" cy="300" r="70" fill="#ffd23f"/>
+  <circle cx="256" cy="300" r="44" fill="#fff"/>
+  <text x="256" y="430" font-family="Trebuchet MS, sans-serif" font-size="74" font-weight="bold"
+        fill="#ffd23f" stroke="#b5121b" stroke-width="3" text-anchor="middle">WW</text>
+</svg>

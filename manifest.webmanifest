@@ -1,0 +1,14 @@
+{
+  "name": "World Warrior Turbo",
+  "short_name": "WW Turbo",
+  "description": "An original arcade-style 1-on-1 fighting game for mobile.",
+  "start_url": "fighter.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "landscape",
+  "background_color": "#000000",
+  "theme_color": "#000000",
+  "icons": [
+    { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ]
+}

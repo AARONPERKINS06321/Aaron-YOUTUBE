@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#000000" />
+  <title>Aaron – It's going to be.</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Trebuchet MS", sans-serif;
+      background: radial-gradient(circle at 50% 25%, #1a2740 0%, #06070c 80%);
+      color: #fff;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
+      padding: 24px;
+    }
+    h1 {
+      font-size: clamp(2rem, 7vw, 3rem);
+      margin-bottom: 0.5rem;
+    }
+    p.intro {
+      font-size: 1.1rem;
+      margin-bottom: 1.5rem;
+      max-width: 600px;
+      color: #cdd6e6;
+    }
+    /* Big primary START button */
+    a.play-btn {
+      display: inline-block;
+      padding: 1.1rem 2.6rem;
+      margin: 0.5rem 0 1.5rem;
+      font-size: clamp(1.2rem, 5vw, 1.8rem);
+      font-weight: bold;
+      letter-spacing: 2px;
+      color: #fff;
+      text-decoration: none;
+      background: linear-gradient(#e23b2e, #b5121b);
+      border: 3px solid #ffd23f;
+      border-radius: 14px;
+      box-shadow: 0 6px 0 #6e0a10, 0 10px 22px rgba(0,0,0,.5);
+      transition: transform .06s, box-shadow .06s;
+      animation: pulse 1.6s ease-in-out infinite;
+    }
+    a.play-btn:active {
+      transform: translateY(5px);
+      box-shadow: 0 1px 0 #6e0a10;
+    }
+    @keyframes pulse {
+      0%,100% { box-shadow: 0 6px 0 #6e0a10, 0 10px 22px rgba(0,0,0,.5); }
+      50%     { box-shadow: 0 6px 0 #6e0a10, 0 10px 30px rgba(255,210,63,.55); }
+    }
+    .sub-note { font-size: .85rem; color: #8aa; margin-top: -0.5rem; margin-bottom: 1.5rem; }
+    a.button {
+      display: inline-block;
+      padding: 0.7rem 1.4rem;
+      margin: 0.4rem;
+      background: #00aaff;
+      color: white;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+    iframe {
+      width: 100%;
+      max-width: 560px;
+      height: 315px;
+      border: none;
+      margin-top: 2rem;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Aaron. It's going to be.</h1>
+  <p class="intro">This is where the real story begins. It's not about pretending—it's about showing up fully. Welcome to the journey.</p>
+
+  <!-- BIG START GAME BUTTON -->
+  <a class="play-btn" href="fighter.html">▶ START GAME</a>
+  <div class="sub-note">World Warrior Turbo · play in your browser · best in landscape 🎮</div>
+
+  <div>
+    <a class="button" href="https://www.youtube.com/@MIDNIGHT-ROBOTERS-AI" target="_blank">Subscribe on YouTube</a>
+    <a class="button" href="mailto:aaronperkins0632@yahoo.com">Email Me</a>
+  </div>
+
+  <!-- Replace the video URL below with your own YouTube video or channel embed -->
+  <iframe src="https://www.youtube.com/channel/UC6ZQOW8pVu3jMKco21ZR2Eg" allowfullscreen></iframe>
+</body>
+</html>
